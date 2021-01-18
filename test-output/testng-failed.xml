@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Maximo Release 02]">
+  <parameter name="browser" value="chrome"/>
+  <test thread-count="5" verbose="0" name="Maximo Release 02(failed)">
+    <parameter name="CurrentApplication" value="BCFerries_R02"/>
+    <classes>
+      <class name="com.Script.R02.OWL_229">
+        <methods>
+          <include name="startTest"/>
+          <include name="OWL_229"/>
+          <include name="reportHeader"/>
+          <include name="closeTest"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="first"/>
+          <include name="first"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.Script.R02.OWL_229 -->
+      <class name="com.Script.R02.OWL_238">
+        <methods>
+          <include name="startTest"/>
+          <include name="OWL_238"/>
+          <include name="reportHeader"/>
+          <include name="closeTest"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="first"/>
+          <include name="first"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.Script.R02.OWL_238 -->
+      <class name="com.Script.R02.OWL_242">
+        <methods>
+          <include name="startTest"/>
+          <include name="OWL_242"/>
+          <include name="reportHeader"/>
+          <include name="closeTest"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="first"/>
+          <include name="first"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.Script.R02.OWL_242 -->
+      <class name="com.Script.R02.OWL_231">
+        <methods>
+          <include name="startTest"/>
+          <include name="OWL_231"/>
+          <include name="reportHeader"/>
+          <include name="closeTest"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="first"/>
+          <include name="first"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.Script.R02.OWL_231 -->
+      <class name="com.Script.UAT_R01_R02.OWL_UAT_R01R02_TEST08">
+        <methods>
+          <include name="startTest"/>
+          <include name="reportHeader"/>
+          <include name="closeTest"/>
+          <include name="OWL_UAT_R01R02_TEST08"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="first"/>
+          <include name="first"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.Script.UAT_R01_R02.OWL_UAT_R01R02_TEST08 -->
+      <class name="com.Script.R02.OWL_252">
+        <methods>
+          <include name="startTest"/>
+          <include name="OWL_252"/>
+          <include name="reportHeader"/>
+          <include name="closeTest"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="first"/>
+          <include name="first"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.Script.R02.OWL_252 -->
+      <class name="com.Script.UAT_R01_R02.OWL_QC_R01R02_TEST01">
+        <methods>
+          <include name="OWL_QC_R01R02_TEST01"/>
+          <include name="startTest"/>
+          <include name="reportHeader"/>
+          <include name="closeTest"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="first"/>
+          <include name="first"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.Script.UAT_R01_R02.OWL_QC_R01R02_TEST01 -->
+      <class name="com.Script.R02.OWL_232">
+        <methods>
+          <include name="startTest"/>
+          <include name="OWL_232"/>
+          <include name="reportHeader"/>
+          <include name="closeTest"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="first"/>
+          <include name="first"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.Script.R02.OWL_232 -->
+      <class name="com.Script.UAT_R01_R02.OWL_UAT_R01R02_TEST01">
+        <methods>
+          <include name="startTest"/>
+          <include name="reportHeader"/>
+          <include name="closeTest"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="first"/>
+          <include name="first"/>
+          <include name="close"/>
+          <include name="OWL_UAT_R01R02_TEST01"/>
+        </methods>
+      </class> <!-- com.Script.UAT_R01_R02.OWL_UAT_R01R02_TEST01 -->
+      <class name="com.Script.UAT_R01_R02.OWL_UAT_R01R02_TEST02">
+        <methods>
+          <include name="startTest"/>
+          <include name="OWL_UAT_R01R02_TEST02"/>
+          <include name="reportHeader"/>
+          <include name="closeTest"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="first"/>
+          <include name="first"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.Script.UAT_R01_R02.OWL_UAT_R01R02_TEST02 -->
+      <class name="com.Script.UAT_R01_R02.OWL_UAT_R01R02_TEST09">
+        <methods>
+          <include name="startTest"/>
+          <include name="reportHeader"/>
+          <include name="closeTest"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="first"/>
+          <include name="first"/>
+          <include name="close"/>
+          <include name="OWL_UAT_R01R02_TEST09"/>
+        </methods>
+      </class> <!-- com.Script.UAT_R01_R02.OWL_UAT_R01R02_TEST09 -->
+      <class name="com.Script.UAT_R01_R02.OWL_UAT_R01R02_TEST07">
+        <methods>
+          <include name="startTest"/>
+          <include name="OWL_UAT_R01R02_TEST07"/>
+          <include name="reportHeader"/>
+          <include name="closeTest"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="first"/>
+          <include name="first"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.Script.UAT_R01_R02.OWL_UAT_R01R02_TEST07 -->
+      <class name="com.Script.R02.SMK_TEST_ACC">
+        <methods>
+          <include name="startTest"/>
+          <include name="reportHeader"/>
+          <include name="closeTest"/>
+          <include name="SMK_TEST_ACC"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="first"/>
+          <include name="first"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.Script.R02.SMK_TEST_ACC -->
+      <class name="com.Script.R02.OWL_230">
+        <methods>
+          <include name="startTest"/>
+          <include name="OWL_230"/>
+          <include name="reportHeader"/>
+          <include name="closeTest"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="first"/>
+          <include name="first"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.Script.R02.OWL_230 -->
+      <class name="com.Script.UAT_R01_R02.OWL_UAT_R01R02_TEST10">
+        <methods>
+          <include name="startTest"/>
+          <include name="OWL_UAT_R01R02_TEST10"/>
+          <include name="reportHeader"/>
+          <include name="closeTest"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="first"/>
+          <include name="first"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.Script.UAT_R01_R02.OWL_UAT_R01R02_TEST10 -->
+      <class name="com.Script.R02.OWL_253">
+        <methods>
+          <include name="startTest"/>
+          <include name="OWL_253"/>
+          <include name="reportHeader"/>
+          <include name="closeTest"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="first"/>
+          <include name="first"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.Script.R02.OWL_253 -->
+      <class name="com.Script.R02.OWL_235">
+        <methods>
+          <include name="startTest"/>
+          <include name="OWL_235"/>
+          <include name="reportHeader"/>
+          <include name="closeTest"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="first"/>
+          <include name="first"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.Script.R02.OWL_235 -->
+      <class name="com.Script.UAT_R01_R02.OWL_QC_R01R02_TEST02">
+        <methods>
+          <include name="startTest"/>
+          <include name="reportHeader"/>
+          <include name="closeTest"/>
+          <include name="OWL_QC_R01R02_TEST02"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="first"/>
+          <include name="first"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.Script.UAT_R01_R02.OWL_QC_R01R02_TEST02 -->
+      <class name="com.Script.R02.OWL_243">
+        <methods>
+          <include name="startTest"/>
+          <include name="OWL_243"/>
+          <include name="reportHeader"/>
+          <include name="closeTest"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="first"/>
+          <include name="first"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.Script.R02.OWL_243 -->
+      <class name="com.Script.R02.OWL_236">
+        <methods>
+          <include name="startTest"/>
+          <include name="OWL_236"/>
+          <include name="reportHeader"/>
+          <include name="closeTest"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="first"/>
+          <include name="first"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.Script.R02.OWL_236 -->
+      <class name="com.Script.R02.OWL_247">
+        <methods>
+          <include name="startTest"/>
+          <include name="OWL_247"/>
+          <include name="reportHeader"/>
+          <include name="closeTest"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="first"/>
+          <include name="first"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.Script.R02.OWL_247 -->
+      <class name="com.Script.R02.OWL_250">
+        <methods>
+          <include name="startTest"/>
+          <include name="OWL_250"/>
+          <include name="reportHeader"/>
+          <include name="closeTest"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="first"/>
+          <include name="first"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.Script.R02.OWL_250 -->
+      <class name="com.Script.R02.OWL_246">
+        <methods>
+          <include name="startTest"/>
+          <include name="OWL_246"/>
+          <include name="reportHeader"/>
+          <include name="closeTest"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="first"/>
+          <include name="first"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.Script.R02.OWL_246 -->
+      <class name="com.Script.UAT_R01_R02.OWL_UAT_R01R02_TEST12">
+        <methods>
+          <include name="startTest"/>
+          <include name="reportHeader"/>
+          <include name="closeTest"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="first"/>
+          <include name="first"/>
+          <include name="close"/>
+          <include name="OWL_UAT_R01R02_TEST12"/>
+        </methods>
+      </class> <!-- com.Script.UAT_R01_R02.OWL_UAT_R01R02_TEST12 -->
+      <class name="com.Script.UAT_R01_R02.OWL_UAT_R01R02_TEST06">
+        <methods>
+          <include name="startTest"/>
+          <include name="reportHeader"/>
+          <include name="closeTest"/>
+          <include name="OWL_UAT_R01R02_TEST06"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="first"/>
+          <include name="first"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.Script.UAT_R01_R02.OWL_UAT_R01R02_TEST06 -->
+      <class name="com.Script.R02.OWL_233">
+        <methods>
+          <include name="startTest"/>
+          <include name="OWL_233"/>
+          <include name="reportHeader"/>
+          <include name="closeTest"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="first"/>
+          <include name="first"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.Script.R02.OWL_233 -->
+      <class name="com.Script.R02.OWL_237">
+        <methods>
+          <include name="startTest"/>
+          <include name="OWL_237"/>
+          <include name="reportHeader"/>
+          <include name="closeTest"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="first"/>
+          <include name="first"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.Script.R02.OWL_237 -->
+    </classes>
+  </test> <!-- Maximo Release 02(failed) -->
+</suite> <!-- Failed suite [Maximo Release 02] -->

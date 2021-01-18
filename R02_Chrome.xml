@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Maximo Release 02" verbose="0">
+	<parameter name="browser" value="chrome"/>
+	<test name="Maximo Release 02" preserve-order="true">	
+		<parameter name="CurrentApplication" value="BCFerries_R02" />
+		<classes>
+		 	<class name="com.Script.R02.OWL_229" />	
+		 	<class name="com.Script.R02.OWL_230" />	
+		 	<class name="com.Script.R02.OWL_231" />	
+		 	<class name="com.Script.R02.OWL_232" />	
+		 	<class name="com.Script.R02.OWL_233" />		
+		 	<class name="com.Script.R02.OWL_235" />	
+		 	<class name="com.Script.R02.OWL_236" />	
+		 	<class name="com.Script.R02.OWL_237" />	
+		 	<class name="com.Script.R02.OWL_238" />	
+		 	<class name="com.Script.R02.OWL_242" />	
+		 	<class name="com.Script.R02.OWL_243" />	
+		 	<class name="com.Script.R02.OWL_246" />		 		
+		 	<class name="com.Script.R02.OWL_247" />	
+		 	<class name="com.Script.R02.OWL_250" />	
+		 	<class name="com.Script.R02.OWL_252" />	
+		 	<class name="com.Script.R02.OWL_253" />
+		 	<class name="com.Script.R02.SMK_TEST_ACC" />
+		 	<class name="com.Script.UAT_R01_R02.OWL_QC_R01R02_TEST01" />
+		 	<class name="com.Script.UAT_R01_R02.OWL_QC_R01R02_TEST02" />	 	
+
+			<class name="com.Script.UAT_R01_R02.OWL_UAT_R01R02_TEST01" />
+			<class name="com.Script.UAT_R01_R02.OWL_UAT_R01R02_TEST02" />
+			<class name="com.Script.UAT_R01_R02.OWL_UAT_R01R02_TEST06" />
+			<class name="com.Script.UAT_R01_R02.OWL_UAT_R01R02_TEST07" />
+			<class name="com.Script.UAT_R01_R02.OWL_UAT_R01R02_TEST08" />
+			<class name="com.Script.UAT_R01_R02.OWL_UAT_R01R02_TEST09" />
+			<class name="com.Script.UAT_R01_R02.OWL_UAT_R01R02_TEST10" />
+			<class name="com.Script.UAT_R01_R02.OWL_UAT_R01R02_TEST11" />
+			<class name="com.Script.UAT_R01_R02.OWL_UAT_R01R02_TEST12" />	   
+		    
+		    	
+		        		
+		</classes>
+	</test>
+</suite>

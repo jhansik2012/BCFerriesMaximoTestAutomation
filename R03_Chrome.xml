@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Maximo Release 03" verbose="0">
+	<parameter name="browser" value="chrome"/>
+	<test name="Maximo Release 03" preserve-order="true">	
+		<parameter name="CurrentApplication" value="BCFerries_R03" />
+		<classes>
+			    <class name="com.Script.R03.OWL_118" />	
+				<class name="com.Script.R03.OWL_120" />	
+				<class name="com.Script.R03.OWL_123" />	
+				<class name="com.Script.R03.OWL_124" />	
+				<class name="com.Script.R03.OWL_126" />	
+				<class name="com.Script.R03.OWL_127" />	
+				<class name="com.Script.R03.OWL_129" />	
+				<class name="com.Script.R03.OWL_132" />	
+				<class name="com.Script.R03.OWL_22" />	
+				<class name="com.Script.R03.OWL_29" />	
+				<class name="com.Script.R03.OWL_3" />	
+				<class name="com.Script.R03.OWL_36" />	
+				<class name="com.Script.R03.OWL_6" />	
+					     		
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Maximo Dry Run" verbose="0">
+	<parameter name="browser" value="chrome"/>
+	<test name="Maximo Page Operations" preserve-order="true">	
+		<parameter name="CurrentApplication" value="BCFerries_R00" />
+		<classes>
+			<class name="com.Script.Login_To_Maximo" />	
+			<class name="com.Script.Open_Drill_Logs" />	
+		</classes>
+	</test>
+</suite> 
